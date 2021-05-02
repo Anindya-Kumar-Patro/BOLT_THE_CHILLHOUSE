@@ -1,0 +1,39 @@
+.Navbar{
+    width:200px;
+    height:100vh;
+    padding:0 20px;
+    background-color: rgb(3, 6, 53);
+    position:absolute;
+    left:-100%;
+    transition: all 1s; 
+
+}
+.Navbar.active{
+    left:0px;
+}
+
+ul{
+    padding:0;
+}
+
+ul li{
+    list-style-type:none;
+    margin:10px 0;
+    
+}
+
+ul li a{
+    padding: 20px;
+    text-decoration:none;
+    color:rgb(226, 224, 224);
+    display:block;
+    padding: 15px 25px;
+    border-radius: 7px;
+    
+}
+
+ul li a:hover,
+ul li a .active{
+    background-color:rgb(30, 50, 136);
+    
+}

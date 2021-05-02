@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Goudy+Bookletter+1911&display=swap');
+*{
+  font-family: 'Goudy Bookletter 1911', serif;
+}
+
+.App-header{
+  padding:30px;
+  background-color:rgb(3, 6, 53);
+  color:cornsilk;
+  font-size:24px;
+}
+
+body{
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+
+}
