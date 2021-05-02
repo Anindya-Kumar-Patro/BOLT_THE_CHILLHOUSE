@@ -1,0 +1,45 @@
+.profile-box{
+    margin-left:240px;
+    
+}
+
+.profile-area{
+    display:flex;
+    
+    margin:18px 0;
+
+    border-bottom: 1px solid grey;
+}
+
+.profile-image{
+    width:150px;
+    height:150px;
+    border-radius: 75px;
+    border: 2px solid black;
+}
+
+.profile-data{
+    margin-left:120px;
+}
+
+/* .profile-data >h4{
+    margin-left:31px;
+} */
+
+.follow-data{
+    display:flex;
+    justify-content:space-between;
+    width:100%;
+    
+}
+.gallery{
+   
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    
+}
+.item{
+    width:30%;
+    height:30%
+}

@@ -1,0 +1,27 @@
+.signup-card{
+    height:85vh;
+    width: 400px;
+    background-color: rgb(207, 245, 252);
+    border-radius:20px;
+    text-align: center;
+    padding: 30px;
+    -webkit-box-shadow: 24px 34px 32px -19px rgba(0,0,0,0.71);
+    -moz-box-shadow: 24px 34px 32px -19px rgba(0,0,0,0.71);
+    box-shadow: 24px 34px 32px -19px rgba(0,0,0,0.71);
+}
+.signup-box{
+    margin-top: 40px;
+    margin-left:500px;
+}
+
+.already-have-account{
+    color:black;
+    font-size:19px;
+}
+
+.already-have-account:hover{
+    color:rgb(0, 9, 88);
+    font-size: 23px;
+    transition: all 0.5s;
+    
+}
